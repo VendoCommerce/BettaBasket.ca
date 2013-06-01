@@ -28,7 +28,7 @@
                   <asp:DataList runat="server" ID="dlordersList" RepeatLayout="Flow" RepeatDirection="Horizontal">
                         <ItemTemplate>
                             <tr>
-                             <td valign="top" style="padding-bottom: 20px; padding-right: 20px;">[backend - put image here]</td>
+                             <td valign="top" style="padding-bottom: 20px; padding-right: 20px;"><img src="<%# DataBinder.Eval(Container.DataItem, "ImagePath")%>" /></td>
                                 <td valign="top" style="padding-bottom: 20px">
                                 <%# DataBinder.Eval(Container.DataItem, "LongDescription")%>
                             </td>

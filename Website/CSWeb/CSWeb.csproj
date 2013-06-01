@@ -239,6 +239,7 @@
     <Content Include="Content\Images\betta_logo.png" />
     <Content Include="Content\Images\bg.jpg" />
     <Content Include="Content\Images\bottom_cta.jpg" />
+    <Content Include="Content\Images\cart_product_hooks.jpg" />
     <Content Include="Content\Images\cart_product_pic.jpg" />
     <Content Include="Content\Images\cart_product_pic.png" />
     <Content Include="Content\Images\checkmark.png" />
@@ -1084,7 +1085,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59086</DevelopmentServerPort>
+          <DevelopmentServerPort>55291</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

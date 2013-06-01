@@ -203,7 +203,7 @@ namespace CSWeb.UserControls
                     Math.Round(Convert.ToDouble(sku.InitialPrice), 2), sku.Quantity.ToString());
             }
 
-            litGAReceiptPixel.Text = sbGAPixel.ToString();
+            //litGAReceiptPixel.Text = sbGAPixel.ToString();
         }
 
         private void SetCurrentOrder()
