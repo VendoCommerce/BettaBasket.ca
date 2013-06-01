@@ -276,6 +276,7 @@
     <Content Include="Content\Images\upsell_multiple.jpg" />
     <Content Include="Content\Images\upsell_rush.jpg" />
     <Content Include="Content\Images\videostop.jpg" />
+    <Content Include="Content\Images\White Dot.JPG" />
     <Content Include="Content\Images\yes_btn.jpg" />
     <Content Include="Content\Images\yes_btn.png" />
     <Content Include="GetTotals.aspx" />
