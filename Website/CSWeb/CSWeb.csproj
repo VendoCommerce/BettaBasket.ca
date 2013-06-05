@@ -415,6 +415,7 @@
     <Content Include="Styles\admin.css" />
     <Content Include="Styles\cart_styles.css" />
     <Content Include="Styles\global.css" />
+    <Content Include="Styles\global_print.css" />
     <Content Include="Styles\midstyles.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Testimonials.aspx" />
