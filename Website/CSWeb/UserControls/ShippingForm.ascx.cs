@@ -108,11 +108,10 @@ namespace CSWeb.UserControls
         /// </summary>
         public void BindCountries(bool setValue)
         {
-
             ddlCountry.DataSource = CountryManager.GetActiveCountry();
             ddlCountry.DataBind();
             if (setValue)
-                ddlCountry.Items.FindByValue(ConfigHelper.DefaultCountry).Selected = true;
+                ddlCountry.Items.FindByValue(CountryManager.GetCacheCountry().First(x => { return x.Code.Trim().ToUpper() == "CA"; }).CountryId.ToString()).Selected = true;
         }
 
         /// <summary>

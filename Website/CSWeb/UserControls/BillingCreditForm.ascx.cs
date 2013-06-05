@@ -169,11 +169,11 @@ namespace CSWeb.UserControls
         /// </summary>
 
         public void BindBillingCountries(bool setValue)
-        {
+        {   
             ddlBillingCountry.DataSource = CountryManager.GetActiveCountry();
             ddlBillingCountry.DataBind();
             if (setValue)
-                ddlBillingCountry.Items.FindByValue(ConfigHelper.DefaultCountry).Selected = true;
+                ddlBillingCountry.Items.FindByValue(CountryManager.GetCacheCountry().First(x => { return x.Code.Trim().ToUpper() == "CA"; }).CountryId.ToString()).Selected = true;
         }
 
         /// <summary>
