@@ -21,16 +21,17 @@
 <link href="styles/global.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
-
+<form id="fm1" runat="server">
      <div class="container">
 <uc:Header runat="server" />
      <uc:Receipt runat="server" />
    
   </div>
-
+<uc:TrackingPixels runat="server" />
 <uc:Footer runat="server" />
 
-<uc:TrackingPixels runat="server" />
+
+</form>
 </body>
 </html>
 
