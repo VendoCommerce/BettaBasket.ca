@@ -97,7 +97,7 @@ function Clickheretoprint()
             <asp:Panel ID="pnlPromotionalAmount" runat="server" Visible="false">
                 <asp:Label runat="server" ID="lblPromotionPrice"></asp:Label><br />
             </asp:Panel>
-                    $<asp:Literal ID="LiteralTotal" runat="server"></asp:Literal>
+                    <asp:Literal ID="LiteralTotal" runat="server"></asp:Literal>
                 </td>
             </tr>
            <tr><td colspan="4"><div class="horizontal_dots"></div></td></tr>

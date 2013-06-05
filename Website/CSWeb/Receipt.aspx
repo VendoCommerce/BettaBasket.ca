@@ -22,12 +22,13 @@
 
 </head>
 <form id="fm1" runat="server">
+
      <div class="container">
 <uc:Header runat="server" />
      <uc:Receipt runat="server" />
-   
+   <uc:TrackingPixels runat="server" />
   </div>
-<uc:TrackingPixels runat="server" />
+
 <uc:Footer runat="server" />
 
 
