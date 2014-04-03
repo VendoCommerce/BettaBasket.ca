@@ -1,0 +1,6 @@
+﻿MAKE SURE ALL INSERTS DO CHECK IF EXISTS FIRST TO PREVENT DUPLICATES
+*/
+USE CSMaster
+GO
+INSERT INTO ReleaseLog (Description) VALUES 'BettaBasket.ca release')
+GO
