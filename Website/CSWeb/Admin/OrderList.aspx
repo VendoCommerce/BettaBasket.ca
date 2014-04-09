@@ -145,7 +145,7 @@
                           <td>
                     <asp:LinkButton ID="lbCancel" runat="server" CausesValidation="False" CommandName="Delete" OnClientClick="return confirm('Are you sure your want to delete this order?')"
                         CommandArgument='<%# DataBinder.Eval(Container.DataItem, "OrderId") %>'>
-                        <asp:Image ID="Image2" runat="server" ImageUrl="/Content/images/admin/delete.gif" BorderWidth="0"
+                        <asp:Image ID="Image2" runat="server" ImageUrl="//d13t42fdokvv1b.cloudfront.net/images/admin/delete.gif" BorderWidth="0"
                             ToolTip='Delete' /></asp:LinkButton>
                 </td>
                         </tr>

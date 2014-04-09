@@ -27,7 +27,7 @@
             </div>
             <div runat="server" width="1%" id='holderRemove' visible="false">
                 <asp:ImageButton ID="btnRemoveItem" runat="server" CommandName="delete" CausesValidation="false"
-                    Visible="" CssClass="ucRemoveButtonOverlay" ImageUrl="../Content/images/delete.gif" />
+                    Visible="" CssClass="ucRemoveButtonOverlay" ImageUrl="//d13t42fdokvv1b.cloudfront.net/images/delete.gif" />
             </div>
         </div>
     </ItemTemplate>
@@ -76,5 +76,5 @@
     </asp:PlaceHolder>
 </asp:Panel>
    <div class="cart_offer">
-   <img src="/Content/Images/cart_cta.png" width="589" height="311" />
+   <img src="//d13t42fdokvv1b.cloudfront.net/images/cart_cta.png" width="589" height="311" />
            </div>
