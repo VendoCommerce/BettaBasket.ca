@@ -201,6 +201,7 @@
     <Content Include="FusionCharts\FCF_StackedColumn3D.swf" />
     <Content Include="FusionCharts\FusionCharts.js" />
     <Content Include="popups.html" />
+    <Content Include="s9t7inn2.htm" />
     <Content Include="Scripts\jwplayer\glow.zip" />
     <Content Include="Scripts\jwplayer\glow2.zip" />
     <Content Include="appsettings.config.token">
